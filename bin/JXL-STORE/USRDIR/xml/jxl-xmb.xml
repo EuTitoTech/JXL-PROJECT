@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMBML version="1.0">
+
+    <View id="jxl_root_entry">
+        <Attributes>
+            <Table key="entrada_loja">
+                <Pair key="icon"><String>/dev_hdd0/game/JXL-STORE/ICON0.PNG</String></Pair>
+                <Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+                <Pair key="title"><String>JXL STORE</String></Pair>
+                <Pair key="info"><String>Gerenciador de Conteúdo e Sistema.</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Query
+                class="type:x-xmb/folder-pixmap"
+                key="entrada_loja"
+                attr="entrada_loja"
+                src="#jxl_main_menu"
+            />
+        </Items>
+    </View>
+
+    <View id="jxl_main_menu">
+        <Attributes>
+            <Table key="cat_jogos">
+                <Pair key="icon"><String>/dev_hdd0/game/JXL-STORE/USRDIR/img/main/cat_jogos.png</String></Pair>
+                <Pair key="title"><String>Catálogo de Jogos</String></Pair>
+                <Pair key="info"><String>PlayStation 1, 2, 3 e Retro.</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+
+            <Table key="cat_apps">
+                <Pair key="icon"><String>/dev_hdd0/game/JXL-STORE/USRDIR/img/main/cat_apps.png</String></Pair>
+                <Pair key="title"><String>Aplicativos e Mídia</String></Pair>
+                <Pair key="info"><String>Streaming e Utilitários.</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+
+            <Table key="cat_sistema">
+                <Pair key="icon"><String>/dev_hdd0/game/JXL-STORE/USRDIR/img/main/cat_sistema.png</String></Pair>
+                <Pair key="title"><String>Sistema e Diagnóstico</String></Pair>
+                <Pair key="info"><String>Ferramentas, HEN e Verificação de Conflitos.</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+        </Attributes>
+
+        <Items>
+            <Query
+                class="type:x-xmb/folder-pixmap"
+                key="cat_jogos"
+                attr="cat_jogos"
+                src="xmb://localhost/dev_hdd0/game/JXL-STORE/USRDIR/xml/jogos.xml#menu_jogos"
+            />
+            <Query
+                class="type:x-xmb/folder-pixmap"
+                key="cat_apps"
+                attr="cat_apps"
+                src="xmb://localhost/dev_hdd0/game/JXL-STORE/USRDIR/xml/apps.xml#menu_apps"
+            />
+            <Query
+                class="type:x-xmb/folder-pixmap"
+                key="cat_sistema"
+                attr="cat_sistema"
+                src="xmb://localhost/dev_hdd0/game/JXL-STORE/USRDIR/xml/sistema.xml#menu_sistema"
+            />		
+        </Items>
+    </View>
+
+</XMBML>
