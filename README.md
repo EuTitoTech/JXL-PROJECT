@@ -4,7 +4,6 @@ Uma loja personalizada para PlayStation 3 (HEN/CFW) baseada em XMB (XML nativo).
 Focada em ser leve, moderna e eficiente.
 
 ![JXL Store Preview](assets/preview.jpg) 
-*(Se você tiver um print da tela, coloque na pasta assets e mude o nome aqui)*
 
 ## 🚀 Funcionalidades
 - **Interface Nativa:** Roda direto no XMB, sem travamentos.
@@ -43,3 +42,4 @@ Gostou do projeto? Tem dúvidas? Me siga no Instagram:
 
 
 **Desenvolvido por T I T O (JXL Project) © 2025**
+
