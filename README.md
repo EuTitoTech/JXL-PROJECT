@@ -28,7 +28,7 @@ Este projeto ainda está em desenvolvimento. Para testar:
        <Pair key="icon"><String>/dev_hdd0/game/JXL-STORE/ICON0.PNG</String></Pair>
        <Pair key="title"><String>JXL STORE</String></Pair>
        <Pair key="src"><String>xmb://localhost/dev_hdd0/game/JXL-STORE/USRDIR/xml/jxl-xmb.xml#jxl_root_entry</String></Pair>
-   </Item>```
+   </Item>
 
 3. **Reinicie o Console:**
     Dê um Soft Reboot ou reinicie o PS3. O ícone aparecerá na coluna JOGOS.
@@ -39,6 +39,7 @@ Este projeto ainda está em desenvolvimento. Para testar:
 
 Gostou do projeto? Tem dúvidas? Me siga no Instagram:
 
-[![Instagram](https://www.instagram.com/eutito.tech)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/eutito.tech)
+
 
 **Desenvolvido por T I T O (JXL Project) © 2025**
